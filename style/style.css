@@ -44,6 +44,7 @@ body {
 .cursos__certificados{
     font-size: 1.2rem;
     text-decoration: none;
+    text-transform: uppercase;
     color: var(--cor-secundaria)
     
 }
