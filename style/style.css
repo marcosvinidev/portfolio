@@ -3,7 +3,7 @@
 :root{
     --cor-primaria: #000000;
     --cor-secundaria:#f6f6f6;
-    --cor-tercearia: #22d4fd;
+    --cor-tercearia: #015171;
     --cor-hover: #272727;
 
     --fonte-primaria: 'Krona one', sans-serif;
@@ -13,7 +13,7 @@
 
 
 *{ 
-    margin: 0;
+    margin: 0 ;
     padding: 0;
 
 }
@@ -36,7 +36,13 @@ body {
     font-weight: 600;
     color: var(--cor-tercearia);
     text-decoration: none;
+    
 }
+.cabecalho__menu__links:hover{
+    border-bottom: 1px solid var(--cor-tercearia) ;
+    
+}
+
 .titulo-destaque {
     color:var(--cor-tercearia);
 }
@@ -49,8 +55,7 @@ body {
     
 }
 .cursos__certificados:hover{
-    font-size: 1.4rem;
-    color: var(--cor-tercearia) ;
+    color: var(--cor-tercearia);
 }
 .apresentacao {
     padding: 5% 15%;
@@ -60,9 +65,14 @@ body {
     gap: 82px;
 }
 .tamanho__foto{
-    max-width: 600px;
-    border-radius: 50px ;
+    max-width: 500px;
+    border-radius: 50%;
     width: 50%;
+    animation: 3;
+}
+.tamanho__foto:hover{
+    max-width: 101%;
+    transition: 1s;
 }
 .apresentacao__conteudo{
     width: 50%;
@@ -108,9 +118,9 @@ body {
     font-family: var(--fonte-secundaria);
 
 }
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
-    padding: 5%;
+    padding: 3%;
 }
 
 .rodape{
