@@ -1,0 +1,31 @@
+#MarcosPereira {
+    background-image: url(fundo.jpg) ; 
+    border-radius: 5%;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  .foto_Marcos {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    trans
+    text-align: left;
+    border-radius: 50%;
+    box-shadow: 15px 15px 10px rgba(23, 23, 23, 0.5);
+  }
+  .cartao-marcos-descricao{
+    font-size: 1.5rem;
+    text-align: center;
+    color: aliceblue;
+  }
+  .cartao-marcos-paragrafo {
+    font-size: 1.1rem;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+  }
